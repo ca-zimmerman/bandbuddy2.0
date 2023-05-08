@@ -7,7 +7,7 @@ defaults:
     working-directory: ./src
 
 jobs:
-  client-format:
+  next-linter:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
